@@ -1,0 +1,35 @@
+.hero-section {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80') no-repeat center center/cover;
+  color: white;
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+  border: none;
+  border-radius: 12px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  background-color: rgb(67, 67, 146);
+  color: white;
+}
+.card-text:hover{
+  color: white;
+}
+
+.badge {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+section h2 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
