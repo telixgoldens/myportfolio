@@ -49,7 +49,7 @@ const ProjectCard = (props) => {
     );
   }
   return (
-    <section id="projects" className="py-5">
+    <section id="projects" className="py-5 ">
       <div className="container">
         <h2 className="text-center mb-5 font-weight-bold text-white">Recent Works</h2>
         <div className="row g-4">
