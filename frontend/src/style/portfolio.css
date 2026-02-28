@@ -62,7 +62,7 @@ html {
 }
 .hero-section-main{
     display: flex;
-    gap: 7rem;
+    gap: 2rem;
 }
 
 .hero-gradient-bg::before {
