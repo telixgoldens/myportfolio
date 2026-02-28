@@ -120,6 +120,7 @@ export function Footer() {
                 href="https://docs.google.com/document/d/1TyBdI6fMwi39JOLoIK7UOpRC-POJg4fx/edit?usp=drive_link&ouid=112314369873187385590&rtpof=true&sd=true"
                 target="_blank"
                 rel="noreferrer"
+                className="text-decoration-none"
                 style={{
                     background: "none",
                     border: "none",

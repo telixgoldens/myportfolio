@@ -90,8 +90,8 @@ export function Hero() {
                   src= {Myimg}
                   alt="Aliyu Aliyu Olalekan"
                   style={{
-                    width: "500px",
-                    height: "500px",
+                    width: "450px",
+                    height: "450px",
                     borderRadius: "50%",
                     objectFit: "cover",
                     border: "4px solid rgba(59, 130, 246, 0.3)",

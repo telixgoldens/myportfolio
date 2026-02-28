@@ -12,7 +12,6 @@ export function Skills() {
         'React',
         'Next.js',
         'Tailwind CSS',
-        'Responsive Design',
         'TypeScript',
         'HTML5/CSS3',
         'UI/UX Implementation'
@@ -55,8 +54,7 @@ export function Skills() {
         'Responsive Design',
         'Team Collaboration',
         'Problem Solving',
-        'Agile Methodology',
-        'Technical Documentation'
+        'Agile Methodology'
       ]
     }
   ];
