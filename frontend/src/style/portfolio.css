@@ -183,7 +183,14 @@ html {
   color: var(--text-primary);
   transform: translateY(-2px);
 }
-
+.main-img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 4px solid rgba(59, 130, 246, 0.3);
+  box-shadow: 0 10px 40px rgba(59, 130, 246, 0.2);
+  margin-bottom: 1rem;            
+}
 .section-wrapper {
   padding: 2rem 0;
   position: relative;
@@ -227,7 +234,7 @@ html {
   border-radius: 1rem;
   border: 1px solid;
   transition: all 0.3s ease;
-  min-height: 260px; /* Ensures equal height for all cards */
+  min-height: 260px; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -479,6 +486,10 @@ html {
     font-size: 3rem;
   }
   
+  .hero-section-main{
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+}
   .hero-subtitle,
   .hero-subtitle-gradient {
     font-size: 1.5rem;
@@ -487,13 +498,29 @@ html {
   .section-title {
     font-size: 2.5rem;
   }
+
+  .feature-card{
+    min-height: 400px;
+  }
 }
 
 @media (max-width: 767px) {
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
+  .hero-section-main{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+    justify-content: center;
+}
+ .main-img{
+   width: 250px;
+   height: 250px;
+
+ }
+
   .hero-subtitle,
   .hero-subtitle-gradient {
     font-size: 1.25rem;

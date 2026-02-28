@@ -89,15 +89,7 @@ export function Hero() {
                 <img
                   src= {Myimg}
                   alt="Aliyu Aliyu Olalekan"
-                  style={{
-                    width: "450px",
-                    height: "450px",
-                    borderRadius: "50%",
-                    objectFit: "cover",
-                    border: "4px solid rgba(59, 130, 246, 0.3)",
-                    boxShadow: "0 10px 40px rgba(59, 130, 246, 0.2)",
-                    marginBottom: "1rem",
-                  }}
+                  className="main-img"
                 />
               </div>
             </div>
