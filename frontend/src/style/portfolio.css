@@ -227,6 +227,10 @@ html {
   border-radius: 1rem;
   border: 1px solid;
   transition: all 0.3s ease;
+  min-height: 260px; /* Ensures equal height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .feature-card.blue {

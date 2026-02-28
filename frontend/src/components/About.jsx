@@ -61,7 +61,7 @@ export function About() {
               <Col sm={6} className="mb-3">
                 <div className="feature-card blue">
                   <div className="feature-icon blue">
-                    <Code2 size={28} />
+                    <Code2 size={22} />
                   </div>
                   <h3
                     style={{
@@ -84,7 +84,7 @@ export function About() {
               <Col sm={6} className="mb-3">
                 <div className="feature-card purple">
                   <div className="feature-icon purple">
-                    <Blocks size={28} />
+                    <Blocks size={22} />
                   </div>
                   <h3
                     style={{
@@ -107,7 +107,7 @@ export function About() {
               <Col sm={6} className="mb-3">
                 <div className="feature-card cyan">
                   <div className="feature-icon cyan">
-                    <Database size={28} />
+                    <Database size={22} />
                   </div>
                   <h3
                     style={{
@@ -130,7 +130,7 @@ export function About() {
               <Col sm={6} className="mb-3">
                 <div className="feature-card pink">
                   <div className="feature-icon pink">
-                    <Sparkles size={28} />
+                    <Sparkles size={22} />
                   </div>
                   <h3
                     style={{
