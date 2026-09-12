@@ -45,7 +45,7 @@ export function Hero() {
                   className="btn-gradient"
                   onClick={() => scrollToSection("projects")}
                 >
-                  View Dev Projects
+                  Dev Projects
                   <ArrowRight size={20} />
                 </Button>
                 <Button
@@ -60,7 +60,7 @@ export function Hero() {
                   href="/solar"
                 >
                   <Sun size={20} />
-                 View Solar Portfolio
+                 Solar Portfolio
                 </Button>
               </div>
               <div className="mb-5">
