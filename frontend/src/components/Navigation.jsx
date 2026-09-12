@@ -51,6 +51,12 @@ export function Navigation() {
             >
               Projects
             </Nav.Link>
+            <Nav.Link
+              className="nav-link-custom nav-solar-link"
+              href="/solar"
+            >
+              Solar PV
+            </Nav.Link>
             <Nav.Link 
               className="nav-link-custom" 
               onClick={() => scrollToSection('experience')}

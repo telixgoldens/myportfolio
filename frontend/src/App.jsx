@@ -7,13 +7,17 @@ import { Experience } from './components/Experience';
 import { Education } from './components/Education';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { SolarSite } from './components/SolarSite';
 import './style/portfolio.css';
 
 export default function App() {
+  if (window.location.pathname.replace(/\/+$/, '') === '/solar') {
+    return <SolarSite />;
+  }
+
   return (
     <div>
       <Navigation />
-      
       <main>
         <Hero />
         <About />
@@ -23,7 +27,6 @@ export default function App() {
         <Education />
         <Contact />
       </main>
-
       <Footer />
     </div>
   );

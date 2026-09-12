@@ -24,14 +24,15 @@ export function About() {
               >
                 I'm a{" "}
                 <span style={{ color: "#3b82f6", fontWeight: 600 }}>
-                  Frontend Developer
+                  Solar PV Installer
                 </span>{" "}
                 and{" "}
                 <span style={{ color: "#a855f7", fontWeight: 600 }}>
-                  Blockchain Infrastructure Engineer
+                  Frontend Developer
                 </span>{" "}
-                with a unique background that combines scientific methodology
-                with modern software development.
+                with a unique multidisciplinary background that combines
+                hands-on renewable energy experience, scientific methodology,
+                and modern software development.
               </p>
               <p
                 className="text-muted-custom"
@@ -40,19 +41,21 @@ export function About() {
                 With a degree in{" "}
                 <span style={{ color: "#93c5fd" }}>Chemistry</span> from the
                 Federal University of Technology, Minna, I bring analytical
-                rigor and systematic problem-solving to software engineering.
-                This hybrid expertise allows me to approach development
-                challenges with both creativity and precision.
+                thinking, attention to detail, and systematic problem-solving to
+                technical challenges. My practical experience in solar PV
+                installation includes solar system installation, inverter and
+                battery setup, electrical wiring, testing, maintenance, and
+                configuring reliable renewable energy solutions.
               </p>
               <p className="text-muted-custom" style={{ lineHeight: 1.7 }}>
-                I specialize in building{" "}
+                Alongside my renewable energy experience, I specialize in building{" "}
                 <span style={{ color: "#3b82f6" }}>
-                  scalable web applications
+                  scalable web applications 
                 </span>
-                , integrating{" "}
-                <span style={{ color: "#a855f7" }}>blockchain protocols</span>,
-                and developing data-driven systems that bridge traditional web
-                technologies with decentralized infrastructure.
+                using modern technologies such as {" "}
+                <span style={{ color: "#a855f7" }}>React and JavaScript.</span>,
+                My scientific background and practical technical experience allow me to
+                approach problems with both creativity and precision.
               </p>
             </div>
           </Col>

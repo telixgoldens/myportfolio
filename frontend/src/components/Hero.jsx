@@ -1,4 +1,4 @@
-import { Github, Linkedin, ArrowRight, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, ArrowRight, Mail, Twitter, Sun } from "lucide-react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Myimg from "/myimg.png"
 
@@ -26,19 +26,17 @@ export function Hero() {
                   <h1 className="hero-title">Aliyu Aliyu Olalekan</h1>
                 </div>
                 <div className="mb-4">
-                  <p className="hero-subtitle mb-2">Frontend Developer &</p>
+                  <p className="hero-subtitle mb-2">Solar PV Installer &</p>
                   <p className="hero-subtitle-gradient">
-                    Blockchain Infrastructure Engineer
+                    Frontend Developer
                   </p>
                 </div>
                 <div>
                 <p className="hero-description">
-                  Specialized in building scalable web applications with{" "}
-                  <span className="highlight">React</span>,{" "}
-                  <span className="highlight">Next.js</span>, and{" "}
-                  <span className="highlight">Node.js</span>. Passionate about
-                  blockchain technology and creating seamless user experiences
-                  for decentralized applications.
+                  Hands-on Solar PV Installer with practical experience in solar system installation,{" "}
+                  <span className="highlight">Inverter & Battery Setup</span>,{" "}
+                  <span className="highlight">Electrical wiring</span>, and{" "}
+                  <span className="highlight">Testing & Maintenance</span>. Also a Frontend Developer specialized in building responsive web applications with React, JavaScript, and modern web technologies. Passionate about renewable energy, technology, and creating practical digital solutions that deliver real-world value.
                 </p>
                 </div>
               </div>
@@ -47,7 +45,7 @@ export function Hero() {
                   className="btn-gradient"
                   onClick={() => scrollToSection("projects")}
                 >
-                  View Projects
+                  View Dev Projects
                   <ArrowRight size={20} />
                 </Button>
                 <Button
@@ -56,6 +54,13 @@ export function Hero() {
                 >
                   <Mail size={20} />
                   Contact Me
+                </Button>
+                <Button
+                  className="btn-solar-custom"
+                  href="/solar"
+                >
+                  <Sun size={20} />
+                 View Solar Portfolio
                 </Button>
               </div>
               <div className="mb-5">

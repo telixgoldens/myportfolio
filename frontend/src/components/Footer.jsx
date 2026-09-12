@@ -26,8 +26,8 @@ export function Footer() {
               Aliyu Aliyu Olalekan
             </h3>
             <p className="text-muted-custom" style={{ fontSize: "0.875rem" }}>
-              Frontend Developer & Blockchain Infrastructure Engineer building
-              the future of the web.
+              Solar PV Installer & Frontend Developer building
+              the future of renewable energy and web development.
             </p>
           </Col>
           <Col md={4} className="mb-4 mb-md-0">
